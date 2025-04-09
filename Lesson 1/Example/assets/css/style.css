@@ -1,4 +1,8 @@
+
+
 nav {
+
+  background-color: rgb(153, 102, 204);
   display: flex;
   flex: 1 1;
   flex-wrap: wrap;
@@ -17,18 +21,18 @@ button {
 
 /* The user's cursor is positioned over the element */
 button:hover {
-  background-color: #772014;
+  background-color: #48ff00;
   color: #fff;
 }
 
 /* The user is actively pressing down on the element */
 button:active {
   font-size: 280%;
-  box-shadow: 0 0 10px #000 inset;
+  box-shadow: 0 0 10px #300276 inset;
 }
 
 /* The element is currently in focus, either by tabbing to or clicking on it */
 button:focus {
   outline: none;
-  border-color: #8ac4ff;
+  border-color: #ff008c;
 }
